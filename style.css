@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cell {
+  flex: auto;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 200px;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+#cell-0,
+#cell-1,
+#cell-3,
+#cell-4 {
+  border-bottom: 4px solid #000;
+  border-right: 4px solid #000;
+}
+
+#cell-2,
+#cell-5 {
+  border-bottom: 4px solid #000;
+}
+
+#cell-6,
+#cell-7 {
+  border-right: 4px solid #000;
+}
